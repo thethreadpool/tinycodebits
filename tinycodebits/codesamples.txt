@@ -1,0 +1,6 @@
+﻿   1. calculate the nth number in the Fibonacci sequence.
+   2. sort 2 arrays of numbers (without using existing libraries).
+   3. Design a Deck class and a Card class and write a function to shuffle a deck of cards.
+   4. Design a Circle class and write a function to determine if 2 circles intersect.
+   5. Design a LinkedList class and write a function to reverse the elements in the list.
+   6.Q4) Implement a Singleton pattern as a template such that, for any given class Foo, I can call Singleton<Foo>::instance() & get a pointer to a singleton of type Foo. Assume the existence of a class Lock which has acquire() & release() methods. The implementation should be thread safe & exception safe
