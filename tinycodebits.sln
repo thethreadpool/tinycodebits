@@ -1,11 +1,14 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Web Developer Express 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Web Developer Express 11
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tinycodebits", "tinycodebits\tinycodebits.csproj", "{92D94B8D-5F7F-471D-AD79-27E30129A408}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tinycodebits.Tests", "tinycodebits.tests\tinycodebits.Tests.csproj", "{83FFAA59-98E6-414E-80BE-A53B2ABCE3F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tinycodebits.UnitTests", "tinycodebits.UnitTests\tinycodebits.UnitTests.csproj", "{E5C0ADB0-B169-4E17-995E-9BF86D2FB85B}"
 EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = tinycodebits.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -15,13 +18,12 @@ Global
 		{92D94B8D-5F7F-471D-AD79-27E30129A408}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92D94B8D-5F7F-471D-AD79-27E30129A408}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92D94B8D-5F7F-471D-AD79-27E30129A408}.Release|Any CPU.Build.0 = Release|Any CPU
-		{83FFAA59-98E6-414E-80BE-A53B2ABCE3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{83FFAA59-98E6-414E-80BE-A53B2ABCE3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C0ADB0-B169-4E17-995E-9BF86D2FB85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C0ADB0-B169-4E17-995E-9BF86D2FB85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C0ADB0-B169-4E17-995E-9BF86D2FB85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C0ADB0-B169-4E17-995E-9BF86D2FB85B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = tinycodebits.vsmdi
 	EndGlobalSection
 EndGlobal
