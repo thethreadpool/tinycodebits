@@ -52,21 +52,16 @@ namespace tinycodebits
 
         public void Shuffle()
         {
-            Card[] shuffledCards = new Card[52];
-
             //for each card in the current deck, randomly generated a new position to that card
             Random randomGenerator = new Random();
             for (int i = 0; i < 52; i++)
             {
                 int cardPosition = randomGenerator.Next(0, 51);
                 //generate a new number until we find a position in the new order that is available
-                while (shuffledCards[cardPosition] != null)
-                {
-                    cardPosition = randomGenerator.Next(0, 51);
-                }
-                shuffledCards[cardPosition] = _cards[i];
+                Card movedCard = _cards[i];
+                _cards[i] = _cards[cardPosition];
+                _cards[cardPosition] = movedCard;
             }
-            _cards = shuffledCards;
         }
 
     }

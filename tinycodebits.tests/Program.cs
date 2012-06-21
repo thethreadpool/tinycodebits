@@ -28,10 +28,11 @@ namespace tinycodebits.Tests
 
         static void RunSelectedTests()
         {
-            DeckCardTests cardTests = new DeckCardTests();
-            cardTests.DeckInitTest();
+            CardDeckTests cardTests = new CardDeckTests();
+            cardTests.TestDeckShuffle();
 
-
+            CirclesTests circleTest = new CirclesTests();
+            circleTest.TestCirclesIntersects();
         }
     }
 }
