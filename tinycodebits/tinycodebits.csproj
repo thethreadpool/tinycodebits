@@ -40,7 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DeckandCard.cs" />
+    <Compile Include="CardDeckExercise.cs" />
+    <Compile Include="Circle.cs" />
     <Compile Include="LinkedList.cs" />
     <Compile Include="MiscHelperMethods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
